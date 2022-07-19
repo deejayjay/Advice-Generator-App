@@ -415,6 +415,80 @@ body {
 
 body {
   font-family: "Manrope", sans-serif;
+  background-color: #1f2632;
+  color: #cee3e9;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.main {
+  background-color: #323a49;
+  border-radius: 10px;
+  padding: 2.25rem 1.5rem 4rem;
+  position: relative;
+}
+
+.advice-title,
+.advice-content {
+  text-align: center;
+}
+
+.advice-title {
+  color: #52ffa8;
+  text-transform: uppercase;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+}
+
+.advice-content {
+  padding: 1.35rem 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.375;
+}
+
+.divider {
+  display: block;
+  text-align: center;
+}
+
+.btn-dice {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  background-color: #52ffa8;
+  position: absolute;
+  left: 50%;
+  bottom: -2rem;
+  transform: translateX(-50%);
+  transition: filter 0.3s ease;
+}
+.btn-dice:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 1rem #52ffa8);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0.5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: #cee3e9;
+}
+.attribution a {
+  text-decoration: none;
+  color: #cee3e9;
+  border-bottom: 1px solid #1f2632;
+  transition: border-bottom-color 0.3s ease;
+}
+.attribution a:hover {
+  border-bottom-color: #cee3e9;
 }
 
 /*# sourceMappingURL=styles.css.map */
