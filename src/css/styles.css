@@ -435,6 +435,17 @@ body {
   text-align: center;
 }
 
+.advice-title,
+.advice-content,
+.divider {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.advice-loaded {
+  opacity: 1;
+}
+
 .advice-title {
   color: #52ffa8;
   text-transform: uppercase;
@@ -489,6 +500,22 @@ body {
 }
 .attribution a:hover {
   border-bottom-color: #cee3e9;
+}
+
+@media only screen and (min-width: 1440px) {
+  .main {
+    max-width: 540px;
+    padding-top: 2.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .advice-title {
+    font-size: 0.8125rem;
+  }
+
+  .advice-content {
+    font-size: 1.75rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
